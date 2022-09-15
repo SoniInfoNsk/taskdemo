@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
+import Task from './Components/Task';
 
 function App() {
   return (
     <div className="App">
      <h1>Component User</h1>
+     <Task/>
     </div>
   );
 }
