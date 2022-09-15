@@ -3,7 +3,7 @@ import {Button} from 'react-bootstrap'
 function Task() {
   return (
     <div>
-<Button variant="primary" style={{width:150}}>Create Task </Button>{' '}
+<Button onClick={()=>(alert("New task will be created"))} variant="primary" style={{width:150}} >Create Task </Button>{' '}
     </div>
   )
 }
